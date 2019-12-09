@@ -8,18 +8,20 @@ This also uses the amazing newspaper module in Python to extract the text itself
 
 Your options for searching in the news are the following:
 
-> Google News 
-> Google News Last 24 Hours 
-> Google News Last Week
-> Google Search
-> Google Search Last 24 Hours
-> Google Search Last Week
-> Website (ANY news website like www.jerseyshoreonline.com OR ww.seattletimes.com)
-> Local Website (at data/data.html)
+1) Google News 
+2) Google News Last 24 Hours 
+3) Google News Last Week
+4) Google Search
+5) Google Search Last 24 Hours
+6) Google Search Last Week
+7) Website (ANY news website like www.jerseyshoreonline.com OR ww.seattletimes.com)
+8) Local Website (at data/data.html)
 
 Unlike my older programs, this time I used classes to neatly separate functionality among the options above. I should have used the state design pattern for the menu (Hint: I did in subsequent programs after this)
 
 If you are someone who likes to get multiple articles all at once (after answering some questions) and put this in a Kindle (or Audiobook format), this program is for you!
+
+This will save it as a text file inside the text directory.
 
 ![](images/newsreader1.jpg)
 ![](images/newsreader2.jpg)
